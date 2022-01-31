@@ -11,12 +11,13 @@
 				"-L",
 				"${workspaceFolder}/../OpenMesh-9.0.0/src/Build/lib",
 				"-l",
-				"libOpenMeshCore.a",
+				"libOpenMeshCore",
 				"-fdiagnostics-color=always",
 				"-g",
 				"${file}",
 				"-o",
-				"${fileDirname}/${fileBasenameNoExtension}"
+				"${fileDirname}/${fileBasenameNoExtension}",
+				"--verbose"
 			],
 			"options": {
 				"cwd": "${fileDirname}"

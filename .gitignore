@@ -1,3 +1,7 @@
+# project specific
+OpenMesh
+build-OpenMesh
+
 # Prerequisites
 *.d
 
@@ -30,3 +34,8 @@
 *.exe
 *.out
 *.app
+
+#CMake 
+build
+build-OpenMesh
+/VS2020

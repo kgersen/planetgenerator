@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.0.0)
 project(DUPlanetGenerator VERSION 0.1.0 LANGUAGES C CXX)
 
-set(CMAKE_DEBUG_POSTFIX "d")
-
 add_executable(DUPlanetGenerator main.cpp PlanetGenerator.cpp Polyhedron.cpp)
 target_include_directories(DUPlanetGenerator PRIVATE ${CMAKE_SOURCE_DIR})
 target_link_libraries(DUPlanetGenerator OpenMeshCore)
